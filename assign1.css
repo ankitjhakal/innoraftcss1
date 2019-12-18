@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+overflow: hidden;
+}
+
+li{
+float: right;
+}
+
+ a{
+  padding:25px 15px;
+  display: block;
+  color: blue;
+  text-decoration: none;
+}
+
+.header{
+  background-color: #dddddd;
+}
+
+#logo{
+  float: left;
+  margin: 12px;
+  width: 100px;
+  height: auto;
+}
+
+li a:hover{
+  background-color: #111;
+
+}
+
+.banner{
+  padding: 10px ;
+  background-color: skyblue;
+  display:  block;
+}
+
+#left{
+  float: left;
+  width: 10px;
+  height: auto;
+  margin-left: 10%;
+  background: black;
+  margin-top: 30px;
+}
+
+#bannerText{
+  text-align: center;
+position: static;
+}
+
+#right{
+  float: right;
+  width: 10px;
+  height: auto;
+  background: black;
+  margin-top: 30px;
+  margin-right: 10%;
+}
+
+.content{
+  width: 100%;
+  display: table;
+}
+
+.feed{
+  width: 20%;
+  background-color: yellow;
+  padding: 60px;
+  margin-top:15px;
+  margin-left: 50px;
+  height: 210px;
+  float: left;
+}
+
+.form{
+  width: 50%;
+  background-color:#f2800d;
+  padding: 40px;
+  float: left;
+  margin-top:15px;
+  margin-left: 10px;
+  height: 160px;
+
+}
+
+.extra{
+  width: 50%;
+  background-color:lightgreen;
+padding: 40px;
+float: left;
+margin-top:10px;
+margin-left: 10px;
+}
+
+input{
+  display: block;
+  background-color:#ff9900;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid orange;
+}
+
+input[type=submit]{
+  padding: 10px;
+}
+
+.footer{
+  margin-top: 10px;
+  width: 100%;
+  padding: 15px;
+  background-color: #1a8cff;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.bottomnav{
+  text-decoration: none;
+  margin: 0 auto;
+  display: inline-block;
+}

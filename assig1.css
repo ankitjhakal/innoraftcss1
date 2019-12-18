@@ -1,0 +1,46 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+}
+.header{
+  padding : 50px;
+margin: 20px;
+  background-color: pink;
+
+}
+
+.col1{
+  margin-top: 5px;
+  width:70%;
+  float: left;
+  padding: 150px 50px;
+  background-color: pink;
+  margin-left: 20px;
+
+
+}
+
+.col2{
+  margin-top: 5px;
+width:24%;
+float: left;
+padding: 150px 50px;
+background-color: pink;
+margin-left: 20px;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foot{
+  margin: 20px;
+  padding : 50px ;
+  background-color: pink
+}
