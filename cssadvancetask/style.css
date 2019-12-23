@@ -50,9 +50,11 @@ h1{width: 100%;
 
 }
 .logo{float: left;
+      position:ralative;
       margin: 12px;
-  width: 100px;
-  height: auto;}
+      width: 100px;
+      height: auto;
+      }
 
 .menu{
   float: right;
@@ -104,10 +106,10 @@ li:hover{
 }
 
 input[type=submit] {
-  width: 35%;
+  width: 45%;
 }
-select{
-  width: 59%;
+select[type=test]{
+  width: 62%;
 }
 .form{color: white;
   padding: 10px;
@@ -129,9 +131,10 @@ select{
   position: relative;
   }
   .tabs{
-    width: 25%;
+    width: 50%;
     position: relative;
-    left:50%;
+    left:40%;
+    margin:auto;
     transform: translate(-50%,0%);
 
   }
