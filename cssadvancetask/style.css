@@ -53,6 +53,7 @@ h1{width: 100%;
       margin: 12px;
   width: 100px;
   height: auto;}
+
 .menu{
   float: right;
   vertical-align:middle;
@@ -101,27 +102,24 @@ li:hover{
   background-color: pink;
   transform: translate(-20%,10%);
 }
-/*
-.s5{color: white;
-  padding: 10px;
-  margin:10px;
-  width:50%;
-  border: 0px;
-  background-color: #f8a549;
-  float: left; 
+
+input[type=submit] {
+  width: 35%;
 }
-*/
+select{
+  width: 59%;
+}
 .form{color: white;
   padding: 10px;
   margin:10px;
-  width:50%;
+  width:59%;
   border: 0px;
   background-color: #f8a549;
-  float: left; 
-}
-  /*float: left;*/
- 
-  /*height: 160px;*/
+  float: left;
+  display: inline-block; 
+  }
+
+
 .footer{
   width: 100%;
   background-color: #06a3cc;
