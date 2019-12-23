@@ -59,6 +59,7 @@ h1{width: 100%;
 .menu{
   float: right;
   vertical-align:middle;
+  text-align:center;
 }
 li{
   float:left;
@@ -133,7 +134,7 @@ select[type=test]{
   .tabs{
     width: 50%;
     position: relative;
-    left:40%;
+    left:35%;
     margin:auto;
     transform: translate(-50%,0%);
 
