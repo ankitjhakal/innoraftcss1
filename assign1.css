@@ -47,7 +47,7 @@ li a:hover{
   float: left;
   width: 10px;
   height: auto;
-  margin-left: 10%;
+  margin-left: 3%;
   background: black;
   margin-top: 30px;
 }
@@ -102,6 +102,7 @@ margin-left: 10px;
 }
 
 input{
+
   display: block;
   background-color:#ff9900;
   padding: 5px;

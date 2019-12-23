@@ -20,7 +20,7 @@
   float: left;
   width: 10px;
   height: auto;
-  margin-left: 10%;
+  margin-left:-100px;
   background: black;
   margin-top: 30px;
 }
@@ -30,7 +30,7 @@
   height: auto;
   background: black;
   margin-top: 30px;
-  margin-right: 10%;
+  margin-right:-100px;
 }
 
 h1{width: 100%;
@@ -45,27 +45,34 @@ h1{width: 100%;
    margin: 0px;
 }
 .container{
-  width:80%;
+  width:800px;
   height: 100px;
 
 }
-.logo{float: left;
+.logo{
+      padding:0px ;
+      float: left;
       position:ralative;
       margin: 12px;
       width: 100px;
       height: auto;
+      margin-left:-100px;
       }
 
 .menu{
   float: right;
+  padding: 10px 12px;
+/*
   vertical-align:middle;
   text-align:center;
+*/
 }
 li{
   float:left;
   text-align: center;
   list-style: none;
   padding: 15px;
+  
 }
 li:hover{
   background-color: black;
@@ -110,7 +117,7 @@ input[type=submit] {
   width: 45%;
 }
 select[type=test]{
-  width: 62%;
+  width: 63%;
 }
 .form{color: white;
   padding: 10px;
