@@ -61,7 +61,7 @@ h1{width: 100%;
 
 .menu{
   float: right;
-  padding: 10px 12px;
+  padding: 22px 12px;
 /*
   vertical-align:middle;
   text-align:center;
@@ -150,8 +150,9 @@ letter-spacing: 12px;
 
   .tabs{
     width: 50%;
-    position: relative;
+    position:relative;
     left:35%;
+    text-align:center;
     margin:auto;
     transform: translate(-50%,0%);
 
