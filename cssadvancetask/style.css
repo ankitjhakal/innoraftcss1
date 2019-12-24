@@ -12,7 +12,7 @@
   font-family: arial;
   font-size: 30px;
   background-color: #06a3cc;
-  margin:0px;
+  margin-top:-2px;
   color: white;
   padding: 0px;
 }
@@ -50,7 +50,7 @@ h1{width: 100%;
 
 }
 .logo{
-      padding:0px ;
+      padding-top:2.5px ;
       float: left;
       position:ralative;
       margin: 12px;
