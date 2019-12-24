@@ -138,6 +138,16 @@ select[type=test]{
   color: white;
   position: relative;
   }
+ul li
+{
+display: inline-block;
+}
+ul li:not(:first-child):before
+{
+content: "|";
+letter-spacing: 12px;
+}
+
   .tabs{
     width: 50%;
     position: relative;
