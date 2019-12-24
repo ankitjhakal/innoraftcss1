@@ -74,7 +74,7 @@
 
 		  .banner{
 		  	height: 145px;
-		  	background-color:#3186e8;
+		  	background-color:#06a3cc;
 		  	display: flex;
 		  	flex-direction:row;
 		  	align-items: center;
@@ -109,7 +109,7 @@
 		  	width:100%;
 		  	position: relative;
 		  	bottom:0px;
-		  	background-color:#257ee6;
+		  	background-color:#06a3cc;
 		  	height: 93px;
 		  	margin-top: 1px;
 		  }
