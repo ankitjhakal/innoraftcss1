@@ -12,27 +12,10 @@
   font-family: arial;
   font-size: 30px;
   background-color: #06a3cc;
-  margin-top:-2px;
+  margin:0px;
   color: white;
   padding: 0px;
 }
-#left{
-  float: left;
-  width: 10px;
-  height: auto;
-  margin-left:0px;
-  background: black;
-  margin-top: 30px;
-}
-#right{
-  float: right;
-  width: 10px;
-  height: auto;
-  background: black;
-  margin-top: 30px;
-  margin-right:0px;
-}
-
 h1{width: 100%;
   padding: 0px;
   text-align: center;
@@ -49,30 +32,15 @@ h1{width: 100%;
   height: 100px;
 
 }
-.logo{
-      padding-top:2.5px ;
-      float: left;
-      position:ralative;
-      margin: 12px;
-      width: 100px;
-      height: auto;
-      margin-left:0px;
-      }
-
+.logo{float: left;}
 .menu{
   float: right;
-  padding: 22px 12px;
-/*
-  vertical-align:middle;
-  text-align:center;
-*/
 }
 li{
   float:left;
   text-align: center;
   list-style: none;
   padding: 15px;
-  
 }
 li:hover{
   background-color: black;
@@ -98,7 +66,7 @@ li:hover{
   height: 51%;
   background-color:#ed8719;
   float: right;
-  }
+}
 #s3{
   width: 59%;
   height: 37%;
@@ -112,24 +80,12 @@ li:hover{
   background-color: pink;
   transform: translate(-20%,10%);
 }
-
-input[type=submit] {
-  width: 45%;
-}
-select[type=test]{
-  width: 63%;
-}
 .form{color: white;
-  padding: 10px;
-  margin:10px;
-  width:59%;
+  padding: 10px;margin:10px;
+  width:50%;
   border: 0px;
   background-color: #f8a549;
-  float: left;
-  display: inline-block; 
-  }
-
-
+}
 .footer{
   width: 100%;
   background-color: #06a3cc;
@@ -138,24 +94,10 @@ select[type=test]{
   color: white;
   position: relative;
   }
-ul li
-{
-display: inline-block;
-}
-ul li:not(:first-child):before
-{
-content: "|";
-letter-spacing: 12px;
-}
-
   .tabs{
-    width: 50%;
-    position:relative;
-    left:35%;
-    display:flex
-    justify-content:center;
-    text-align:center;
-    margin:auto;
+    width: 25%;
+    position: relative;
+    left:50%;
     transform: translate(-50%,0%);
 
   }
