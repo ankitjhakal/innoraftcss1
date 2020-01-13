@@ -430,7 +430,7 @@ li {
 .inp {
     display: inline-grid;
     width: 300px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 100%;
 }
 .inp input{
   border:none;
